@@ -9,25 +9,24 @@ body {
   }
 
   #banner {
-    width: 800px;
+    width: 600;
     display: block;
     margin: auto;
-    background-color: #FFC0A7;
+    background-color: ;
     border-radius: 15px 50px 30px 5px;  
   }
 
   h1 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Apple Chancery, cursive		;
+    color: #f7ece2;
   }
 
   img {
     width: 350px;
     display: block;
     margin: auto;
-    border-radius: 50%;
     position: relative;
-    border-radius: 500px 500px 0 0;  
     padding-left: 50px;
   }
 
@@ -37,12 +36,18 @@ body {
     top: 80%;
   }
 
+  .click {
+    border-radius: 50%;  
+    
+  }
+
   .child-pic {
-    left: 25%;
+    left: 30%;
   }
   
   .parent-pic {
     position: relative;
+    border-radius: 50%;  
     float: left;
   }
 
@@ -57,4 +62,3 @@ body {
   .contact-me {
     background-color: aliceblue;
   }
-  
