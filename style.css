@@ -1,11 +1,17 @@
 
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   /* background-image:url('https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1697327642014-9KT06UR3Y1ZHUPHA8NVZ/Art_of_Alariko_42.jpeg?format=2500w');
   background-size:cover;
   background-repeat: no-repeat;
   */
   background-color: #BBBEA0;
+
   }
 
   #banner {
@@ -22,8 +28,9 @@ body {
     color: #f7ece2;
   }
 
+
   img {
-    width: 350px;
+    width: 300px;
     display: block;
     margin: auto;
     position: relative;
@@ -33,16 +40,27 @@ body {
 
   .child {
     position: absolute;
-    top: 80%;
+    top: 50%;
   }
 
-  .click {
+  .ponyo {
+    border-radius: 50%;
+  }
+
+  .doggo {
     border-radius: 50%;  
-    
+    width: 5em;
+    right: 80%;
   }
 
-  .child-pic {
-    left: 30%;
+  .squiggle-1 {
+    left: 50%;
+  }
+
+  .child-pic2 {
+    position: relative;
+    float: right;
+    right: 20%;
   }
   
   .parent-pic {

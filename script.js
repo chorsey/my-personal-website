@@ -3,8 +3,8 @@ h2.textContent = "This content added by JavaScript";
 document.querySelector("body").appendChild(h2);
 */
 
-const parentpic = document.getElementsByClassName('click');
+const ponyo = document.querySelector('.ponyo');
 
-click.addEventListener('click', function() {
-    alert('I was clicked!');
+ponyo.addEventListener('click', function() {
+     alert('Get away!');
   });
