@@ -7,12 +7,12 @@
 
 .container1{
   display: flex;
-  background-color: #Ecc889;
+  background-color: #bbbea0;
   width: 400px;
-  height: 600px;
+  height: 300px;
   justify-content: space-evenly;
   align-items: center;
-  flex-grow: ;
+  flex-grow: 1;
 }
 
 .item2 img {
@@ -71,4 +71,41 @@
   height: 50px;
   width: 50px;
   padding-left: 10px;
+}
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-name {
+  transform: translate(90px, 65px);
+}
+
+.details-container {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  background-color: #d9ad99;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+}
+
+.details-container p{
+  width: 200px;
+  padding: 30px;
+}
+
+.socials-container {
+  display: flex;
+  width: 400px;
+  height: 25px;
+  background-color: #d9ad99;
+  justify-content: start;  
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
 }
