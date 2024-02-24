@@ -9,9 +9,10 @@
   display: flex;
   background-color: #Ecc889;
   width: 400px;
-  height: 400px;
+  height: 600px;
   justify-content: space-evenly;
   align-items: center;
+  flex-grow: ;
 }
 
 .item2 img {
@@ -21,7 +22,6 @@
   border-radius: 50%;
 }
 .item3 img {
-  background-color: orchid;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -34,6 +34,7 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: #eadacd;
+  flex-grow: 1;
 
 }
 
@@ -44,10 +45,30 @@
   background-color: #d9ad99;
   align-items: flex-start;
   flex-direction: column;
+  flex-grow: 1;
+
 }
 
 .columncontainer {
   display: flex;
   flex-direction: column;
 
+}
+
+.columncontainer h1 {
+  color: white;
+  font-size: 20px;
+  font-family: Andale Mono, monospace	;
+
+
+}
+
+.container3 h1 {
+  padding-left:10px;
+}
+
+.hobby-item img{
+  height: 50px;
+  width: 50px;
+  padding-left: 10px;
 }
