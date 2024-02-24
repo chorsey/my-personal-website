@@ -2,14 +2,12 @@
   width:800px;
   height: 600px;
   display: flex;
-  align-items: flex-start;
-
 }
 
 .container1{
   display: flex;
   background-color: #Ecc889;
-  width: 600px;
+  width: 400px;
   height: 400px;
   justify-content: space-evenly;
   align-items: center;
@@ -31,7 +29,22 @@
 .container2 {
   display: flex;
   width: 300px;
-  height: 400px;
-  align-items: center;
+  height: 200px;
+  align-items: flex-end;
   justify-content: space-evenly;
+  background-color: #eadacd;
+
+}
+
+.container3 {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  background-color: #Ecc889;
+  align-items: flex-start;
+}
+
+.columncontainer {
+  display: flex;
+  flex-direction: column;
 }
