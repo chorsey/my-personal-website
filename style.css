@@ -130,9 +130,32 @@
 }
 
 .pet-bio {
-  display: none;
+  display: block;
 }
 
 .pet-container h3 {
   display: none;
+}
+
+.btn {
+  top:50%;
+  background-color:#bbbea0;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  width: 100px;
+  height: 50px;
+  font-size: 10px;
+
+}
+
+.btn:hover {
+  background-color:#7f816c;
+  transition: 0.7s;
+}
+
+.btn:focus {
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #black;
 }
