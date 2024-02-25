@@ -3,6 +3,7 @@
   height: 600px;
   display: flex;
   background-color: grey;
+  flex-wrap: wrap;
 }
 
 .container1{
@@ -22,8 +23,8 @@
   border-radius: 50%;
 }
 .item3 img {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 
@@ -31,12 +32,24 @@
   display: flex;
   width: 300px;
   height: 200px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
+  flex-direction: column;
   background-color: #eadacd;
   flex-grow: 1;
 
 }
+
+.pet-container {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  background-color: #eadacd;
+  align-items: center;
+  justify-content: end;
+  flex-grow:1;
+}
+
 
 .container3 {
   display: flex;
@@ -86,7 +99,7 @@
   display: flex;
   width: 400px;
   height: 100px;
-  background-color: #d9ad99;
+  background-color: #bbbea0;
   flex-wrap: wrap-reverse;
   justify-content: end;
 }
@@ -94,13 +107,14 @@
 .details-container p{
   width: 200px;
   padding: 30px;
+
 }
 
 .socials-container {
   display: flex;
   width: 400px;
   height: 25px;
-  background-color: #d9ad99;
+  background-color: #bbbea0;
   justify-content: start;  
 }
 
@@ -108,4 +122,17 @@
     width: 25px;
     height: 25px;
     padding-right: 10px;
+}
+
+.squiggle {
+  width:300px;
+  padding-bottom: 10px;
+}
+
+.pet-bio {
+  display: none;
+}
+
+.pet-container h3 {
+  display: none;
 }
