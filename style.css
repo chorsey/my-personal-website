@@ -1,15 +1,17 @@
-.container {
-  width:800px;
-  height: 600px;
+body {
   display: flex;
+}
+
+.container {
+  height: 600px;
   background-color: grey;
-  flex-wrap: wrap;
+  min-height: 100vh;
+  display: flex;
 }
 
 .container1{
   display: flex;
   background-color: #bbbea0;
-  width: 400px;
   height: 300px;
   justify-content: space-evenly;
   align-items: center;
@@ -30,7 +32,6 @@
 
 .container2 {
   display: flex;
-  width: 300px;
   height: 200px;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -53,7 +54,6 @@
 
 .container3 {
   display: flex;
-  width: 300px;
   height: 200px;
   background-color: #d9ad99;
   align-items: flex-start;
@@ -65,15 +65,13 @@
 .columncontainer {
   display: flex;
   flex-direction: column;
-
+  flex-grow: 1;
 }
 
 .columncontainer h1 {
   color: white;
   font-size: 20px;
   font-family: Andale Mono, monospace	;
-
-
 }
 
 .container3 h1 {
@@ -88,16 +86,12 @@
 
 .profile-right {
   display: flex;
+  width:60%;
   flex-direction: column;
-}
-
-.my-name {
-  transform: translate(90px, 65px);
 }
 
 .details-container {
   display: flex;
-  width: 400px;
   height: 100px;
   background-color: #bbbea0;
   flex-wrap: wrap-reverse;
@@ -105,14 +99,11 @@
 }
 
 .details-container p{
-  width: 200px;
   padding: 30px;
-
 }
 
 .socials-container {
   display: flex;
-  width: 400px;
   height: 25px;
   background-color: #bbbea0;
   justify-content: start;  
@@ -157,5 +148,14 @@
 .btn:focus {
   outline-color: transparent;
   outline-style:solid;
-  box-shadow: 0 0 0 2px #black;
+  box-shadow: 0 0 0 2px black;
+}
+
+.image-wrapper {
+  position: relative
+}
+.image-wrapper > .my-name {
+  position: absolute;
+  bottom: -40px;
+  left: -80px;
 }
