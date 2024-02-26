@@ -43,15 +43,15 @@ function showInfo(src, description) {
    //*Create image and text block
     const img = document.createElement('img')
     img.src = src
-    img.style.height = '200px'
+    img.classList.add('petPicStyle')
     const text = document.createElement('p')
     text.innerText = description
+    text.classList.add('petPicBlurb')
 
    //*Create div with image and text 
     const modal = document.createElement('div')
     modal.append(img, text)
     modal.classList.add('modal')
-
     document.body.append(modal)
     setTimeout(() => {
         onClickOutside(modal, () => {
