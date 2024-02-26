@@ -114,6 +114,7 @@ body {
 .details-container p{
   padding: 30px;
   display: block;
+  font-size: 1em;
 }
 
 .socials-container {
