@@ -28,4 +28,35 @@ const button = document.createElement('button')
 
   button.textContent= 'Click to read  more about me '
   button.classList.add('btn') //*add a btn class 
-  petInfo.append(button);
+  //*petInfo.append(button);
+
+
+
+
+const onClickOutside = (element, callback) => {
+    document.addEventListener('click', e => {
+        if (!element.contains(e.target)) callback();
+    });
+};
+
+function showInfo(src, description) {
+   //*Create image and text block
+    const img = document.createElement('img')
+    img.src = src
+    img.style.height = '200px'
+    const text = document.createElement('p')
+    text.innerText = description
+
+   //*Create div with image and text 
+    const modal = document.createElement('div')
+    modal.append(img, text)
+    modal.classList.add('modal')
+
+    document.body.append(modal)
+    setTimeout(() => {
+        onClickOutside(modal, () => {
+            modal.remove()
+        })
+    }, 0)
+}
+
