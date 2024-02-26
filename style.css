@@ -25,10 +25,11 @@ body {
   border-radius: 50%;
 }
 .item3 img {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border-radius: 10%;
 }
+
 
 .container2 {
   display: flex;
@@ -192,6 +193,17 @@ body {
 
 .petPicBlurb {
   display: block;
-  font-size: 10px;
-  color: purple;
+  font-size: 20px;
+}
+
+.petTitle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #eadacd;
+  height: 20%;
+}
+
+.petTitle > h1 {
+  font-size: 20px;
 }
