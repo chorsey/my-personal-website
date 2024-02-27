@@ -121,12 +121,14 @@ body {
   display: flex;
   height: 25px;
   background-color: #bbbea0;
-  justify-content: center;  
+  justify-content: flex-start;  
+  padding-left: 10px;
+  padding-bottom: 15px;
 }
 
 .social-icon {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     padding-right: 10px;
 }
 
