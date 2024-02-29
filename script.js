@@ -2,16 +2,12 @@
 h2.textContent = "This content added by JavaScript";
 document.querySelector("body").appendChild(h2);
 */
-
 /*const ponyo = document.querySelector('.ponyo');
 
 ponyo.addEventListener('click', function() {
      alert('Get away!');
   });
 */
-
-
-
 
 
 const h2 = document.createElement('h2');
